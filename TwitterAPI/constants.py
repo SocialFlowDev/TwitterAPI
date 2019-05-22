@@ -219,5 +219,8 @@ ENDPOINTS = {
     'tweets/search/30day/:PARAM':                           ('GET',    'api'), # LABEL
     'tweets/search/30day/:PARAM/counts':                    ('GET',    'api'), # LABEL
     'tweets/search/fullarchive/:PARAM':                     ('GET',    'api'), # LABEL
-    'tweets/search/fullarchive/:PARAM/counts':              ('GET',    'api')  # LABEL
+    'tweets/search/fullarchive/:PARAM/counts':              ('GET',    'api'),  # LABEL
+
+    # VIDEO API
+    'media/analytics/video':                                ('GET',    'api')
 }
